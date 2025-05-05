@@ -1,5 +1,5 @@
 version: 0.2
-
+#adding comment to test automated build trigger using aws code pipelines i.e. which acts as a orchestrator and triggers code build
 env:
   parameter-store:
     DOCKER_REGISTRY_USERNAME: /myapp/docker-credentials/username
