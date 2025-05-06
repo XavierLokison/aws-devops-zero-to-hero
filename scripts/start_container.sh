@@ -2,6 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
+docker login -u XavierLokison -p Lokeshselvakumar@01 docker.io
 docker pull xavierlokison/simple-flask-app:latest
 
 # Run the Docker image as a container
