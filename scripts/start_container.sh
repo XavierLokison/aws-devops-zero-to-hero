@@ -6,4 +6,4 @@ echo "dckr_pat_oy3T4-Q4zhSP9EbV0zw0siKQ2vo" | docker login -u xavierlokison --pa
 docker pull xavierlokison/simple-flask-app:latest
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 xavierlokison/simple-python-flask-app:latest
+docker run -d -p 5000:5000 xavierlokison/simple-flask-app:latest
